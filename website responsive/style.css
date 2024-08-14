@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+header {
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 2px 0px gray;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+}
+
+nav>img {
+    width: 60px;
+}
+
+.menu {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.buttonIcon {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+.button>button {
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(0, 157, 255);
+    font-weight: 550;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.button>button>a {
+    text-decoration: none;
+    color: white;
+}
+
+.search {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 280px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(235, 235, 235);
+}
+
+.search>input {
+    background-color: rgb(235, 235, 235);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    margin-left: 6%;
+}
+
+.search>i {
+    margin-left: 15%;
+}
+
+.icon {
+    cursor: pointer;
+    margin-right: 3%;
+    font-size: 20px;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.banner {
+    width: 96%;
+    border-radius: 50px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.banner>img {
+    width: 100%;
+}
+
+
+/* For container image */
+
+/* Row1  */
+
+
+.card1>.ribbin1 {
+    z-index: 1;
+
+    position: absolute;
+    margin-top: 1%;
+}
+
+/* for like button */
+.card1>.likeb {
+    display: flex;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    width: 35px;
+    background-color: white;
+    transform: translateX(415%);
+    font-size: 22px;
+    height: 35px;
+    position: absolute;
+}
+
+/* for cards images */
+.img1 {
+    margin: 8px 9px;
+    box-sizing: border-box;
+    width: 90%;
+    height: 60%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img1>img {
+    width: 100%;
+}
+
+/* for product containt */
+
+.containt1 {
+    padding: 10px;
+}
+
+.cp1 {
+    font-size: 13px;
+    color: rgba(162, 162, 162, 0.937);
+}
+
+/* card button and star icon */
+.cb1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 43px;
+    margin-top: 7%;
+}
+
+.cb1>.star1>i {
+    font-size: 20px;
+}
+
+.cb1>.Trialp {
+    width: 30%;
+    font-size: 11px;
+    color: black;
+    font-weight: 600;
+}
+
+
+/* for button */
+
+.cb1>.bb1 {
+    width: 40%;
+}
+
+.cb1>.bb1>.b1 {
+    border-radius: 15px;
+    width: 100%;
+    height: 30px;
+    background-color: #2093ff;
+    border: none;
+}
+
+.bb1>.b1>a {
+
+    font-size: 14px;
+    color: white;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
